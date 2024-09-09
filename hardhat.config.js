@@ -21,7 +21,10 @@ module.exports = {
   etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
-    apiKey: "MRMQXTEP7K1ZXEHA1RTKN4TA16N7YXSGVB"
+    apiKey:{
+      sepolia:[process.env.API_Key]
+    }
+     
   }
 
 };
