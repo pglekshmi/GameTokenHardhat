@@ -38,7 +38,9 @@ networks:{
 etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
-    apiKey: "Your API_Key"
+    apiKey: {
+         sepolia:"Your API_Key"
+          }
   }
 ```
 
